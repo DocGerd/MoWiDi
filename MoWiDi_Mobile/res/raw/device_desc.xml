@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : upnp_device_desc.xml
+    Created on : 12. Juni 2010, 12:58
+    Author     : Patrick Kuhn
+    Description:
+        UPnP Device Description file.
+        JUST an example file in case none available.
+-->
+
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+    <specVersion>
+        <major>1</major>
+        <minor>0</minor>
+    </specVersion>
+
+    <device>
+        <deviceType>urn:schemas-upnp-org:device:BinaryLight:1</deviceType>
+        <!-- Given Name of device -->
+        <friendlyName></friendlyName>
+        <!-- Yeah -->
+        <manufacturer>PSE23</manufacturer>
+        <manufacturerURL>http://os.ibds.kit.edu/1496.php?courseid=197</manufacturerURL>
+        <!-- Unique Device Name // UUID -->
+        <UDN></UDN>
+        <!-- Universal Product Code -->
+        <UPC></UPC>
+
+        <serviceList>
+            <service>
+                <!-- TODO: check ok -->
+                <serviceType>urn:schemas-upnp-org:service:SwitchPower:1</serviceType>
+                <serviceId>urn:upnp-org:serviceId:SwitchPower:1</serviceId>
+                <controlURL>/mowidi/control</controlURL>
+                <eventSubURL>/mowidi/event</eventSubURL>
+                <SCPDURL>/mowidi.xml</SCPDURL>
+            </service>
+        </serviceList>
+    </device>
+</root>

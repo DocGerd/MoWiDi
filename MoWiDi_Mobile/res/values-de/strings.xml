@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MainView -->
+    <string name="app_name">MoWiDi</string>
+    <string name="no_items">Keine Verbindungsanfragen.</string>
+    <string name="connected">Verbunden</string>
+    <string name="waiting">Wartet</string>
+    
+    <!-- SettingsView -->
+    <string name="mobile_name">Telefonname:</string>
+    <string name="given_name">Zugewiesener Name:</string>
+    <string name="language">Sprache:</string>
+    <string name="automatic">  Automatisch</string>
+    <string name="german">  Deutsch</string>
+    <string name="english">  Englisch</string>
+    <string name="name">Tatsächlicher Name:</string>
+	<string name="too_short">Name muss aus mindestens 3 Zeichen bestehen.
+	</string>
+ 
+    <!-- Discovery Notificator -->
+    <string name="note_title">PCs wollen sich verbinden.</string>
+    <string name="note_text">Klicken um zur Liste zu gelangen.</string>
+    
+    <!-- Options Menu -->
+    <string name="settings">Einstellungen</string>
+    <string name="info">Über</string>
+    <string name="help">Hilfe</string>
+    <string name="quit">Beenden</string>
+   
+    <!-- Connect Dialog -->
+    <string name="connect">Verbinden</string>
+    <string name="hashcode">Hashcode:</string>
+    <string name="access_rights_prompt">Zugriffsrechte:</string>
+    <string name="auto_connect">  Auto. verbinden</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Abbrechen</string>
+    
+    <!-- Connection settings Dialog -->
+    <string name="pc_settings">Verbindungseinstellungen</string>
+    
+    <!-- Disconnect Dialog -->
+    <string name="warning">Warnung</string>
+    <string name="warning_disconnect">Aktuelle Verbindung trennen?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    
+    <!-- Access rights spinner -->
+    <string-array name="access_rights">
+        <item>Keine</item>
+        <item>Lesen</item>
+        <item>Lesen/Schreiben</item>
+    </string-array>
+    
+    <!-- About Dialog -->
+    <string name="version_label">Version: </string>
+    <string name="version">1.0</string>
+    <string name="developed_label">Entwickelt von: </string>
+    <string name="website">PSE 23 Team</string>
+    
+    <!-- Help Dialog -->
+    <string name="settings_label">Einstellungen:</string>
+	<string name="settings_text1">Zu den Einstellungen gelangen Sie über den \'Menü\'
+		Knopf, wo Sie zur besseren Identifizierung Ihres Mobiltelefons
+		jederzeit Ihren Namen ändern können.</string>
+	<string name="settings_text2">Ebenfalls lässt sich hier die Applikationssprache
+		einstellen, wobei \'Automatisch\' für die automatische Erkennung der
+		globalen Spracheinstellunge steht.</string>
+    <string name="connect_label">Verbinden:</string>
+	<string name="connect_text1">Sobald MoWiDi gestartet wird, werden Sie an eine
+		Liste aller eingehenden Verbindungsanfragen weitergeleitet.</string>
+	<string name="connect_text2">Mit einem einfachen \'Tab\' auf eine diser Anfragen
+		gelangen Sie zum Verbindungsdialog, wo der Hashcode des Antragstellers
+		angezeigt und die verbindungsspezifischen Einstellungen festgelegt
+		werden. \'Auto verbinden\' nimmt Ihnen beim nächsten Verbinden diesen
+		Schritt ab (nur auf Vertrauensbasis aktivieren).</string>
+    <string name="conSettings_label">Verbindungseinstellungen:</string>
+	<string name="conSettings_text"> Diese können zu jeder Zeit mittels anhaltendem
+		\'Tab\' auf die jeweilige Verbindung/Anfrage erreicht werden.
+		Zusätzlich ist hier auch möglich den Namen des Verbindungspartners
+		temporär einzustellen (ist \'Auto. verbinden\' aktiviert, wird dieser
+		langfristig hinterlegt).</string>
+    <string name="disconnect_label">Verbindungsabbruch:</string>
+	<string name="disconnect_text">Die Verbindung lässt sich durch einen simplen
+		\'Tab\' auch die jeweilige Verbindung, Beenden der Applikation oder
+		durch einen neuen Verbindungsaufbau trennen.</string>
+	<string name="hint">Hinweis: Wenn die Applikation ihren Zweck erfüllt
+		hat vergessen Sie nicht diese über das \'Menü\' zu beenden. Somit ist
+		sicher gestellt, dass keine weiteren Verbindungsanfragen eingehen.
+	</string>
+    <string name="thanks">Das Entwicklungsteam wünscht viel Spaß mit MoWiDi.</string>
+        
+</resources>

@@ -1,0 +1,118 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dip"
+    android:paddingRight="15dip"
+    >
+    <View
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:background="#FF505050" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingTop="5dip"
+            android:paddingBottom="15dip"
+            >
+            <TextView
+                android:id="@+id/help_settings_label"
+                android:text="@string/settings_label"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF353535" />
+            <TextView 
+                android:id="@+id/help_settings_text1"
+                android:text="@string/settings_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip" />
+            <TextView 
+                android:id="@+id/help_settings_text2"
+                android:text="@string/settings_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip" />
+            <TextView
+                android:id="@+id/help_connect_label"
+                android:text="@string/connect_label"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF353535"
+                android:layout_marginTop="15dip" />
+            <TextView 
+                android:id="@+id/help_connect_text1"
+                android:text="@string/connect_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip" />
+            <TextView 
+                android:id="@+id/help_connect_text2"
+                android:text="@string/connect_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip" />
+            <TextView
+                android:id="@+id/help_conSettings_label"
+                android:text="@string/conSettings_label"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF353535"
+                android:layout_marginTop="15dip" />
+            <TextView 
+                android:id="@+id/help_conSettings_text"
+                android:text="@string/conSettings_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip" />
+            <TextView
+                android:id="@+id/help_disconnect_label"
+                android:text="@string/disconnect_label"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF353535"
+                android:layout_marginTop="15dip" />
+            <TextView 
+                android:id="@+id/help_disconnect_text"
+                android:text="@string/disconnect_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip" />
+            <TextView 
+                android:id="@+id/hint_text"
+                android:text="@string/hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip" />
+            <TextView 
+                android:id="@+id/thanks_text"
+                android:text="@string/thanks"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="35dip"
+                android:textColor="#FFFFFFFF" />
+                
+        </LinearLayout>      
+    </ScrollView>  
+</LinearLayout>
+

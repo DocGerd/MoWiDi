@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/settings_mobileName_label"
+        android:text="@string/mobile_name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        >
+        <EditText
+            android:id="@+id/settings_mobileName_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="200dip"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/b_ok"
+            android:text="@string/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:minWidth="50dp" />
+    
+    </LinearLayout>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:background="#FF505050" /> 
+    <TextView
+        android:id="@+id/settings_language_label"
+        android:text="@string/language"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        >
+        <RadioGroup 
+            android:id="@+id/settings_langGroup_label" 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:checkedButton="@+id/rb_lang_checked"
+            >
+            <RadioButton
+                android:id="@+id/settings_languageAuto"
+                android:text="@string/automatic"
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+            <RadioButton 
+                android:id="@+id/settings_languageGer"
+                android:text="@string/german"
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+            <RadioButton 
+                android:id="@+id/settings_languageEng"
+                android:text="@string/english"
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </RadioGroup>
+    </ScrollView>
+</LinearLayout>

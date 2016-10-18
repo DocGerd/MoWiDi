@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <View
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:background="#FF707070"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingTop="5dip"
+            android:paddingBottom="15dip"
+            >
+            <TextView
+                android:id="@+id/connect_hashcode_label"
+                android:text="@string/hashcode"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView 
+	            android:id="@+id/connect_hashcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip" />
+            <View
+                android:layout_height="1dp"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="5dp"
+                android:background="#FF707070" />
+            <TextView
+                android:id="@+id/connect_accessRights_label"
+                android:text="@string/access_rights_prompt"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip" />
+            <Spinner 
+                android:id="@+id/connect_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+            <CheckBox
+                android:id="@+id/connect_autoCheck"
+                android:text="@string/auto_connect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" />
+              
+        </LinearLayout>     
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#c6c3c6"
+        android:minHeight="55dip"
+        android:paddingTop="5dip"
+        >
+        <Button
+            android:id="@+id/connect_okButton"
+            android:text="@string/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dip" />
+            
+    </LinearLayout> 
+</LinearLayout>

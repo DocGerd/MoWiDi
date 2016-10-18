@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MainView -->
+    <string name="app_name">MoWiDi</string>
+    <string name="no_items">No connection requests.</string>
+    <string name="connected">Connected</string>
+    <string name="waiting">Waiting</string>
+    
+    <!-- SettingsView -->
+    <string name="mobile_name">Mobile name:</string>
+    <string name="given_name">Given name:</string>
+    <string name="language">Language:</string>
+    <string name="automatic">  Automatic</string>
+    <string name="german">  German</string>
+    <string name="english">  English</string>
+    <string name="name">Actual name:</string>
+    <string name="too_short">Name must be at least 3 characters</string>
+ 
+    <!-- Discovery Notificator -->
+    <string name="note_title">PCs want to connect.</string>
+    <string name="note_text">Click to open the list.</string>
+    
+    <!-- Options Menu -->
+    <string name="settings">Settings</string>
+    <string name="info">About</string>
+    <string name="help">Help</string>
+    <string name="quit">Quit</string>
+   
+    <!-- Connect Dialog -->
+    <string name="connect">Connect</string>
+    <string name="hashcode">Hashcode:</string>
+    <string name="access_rights_prompt">Access rights:</string>
+    <string name="auto_connect">  Auto. connect</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Connection settings Dialog -->
+    <string name="pc_settings">Connection settings</string>
+    
+    <!-- Disconnect Dialog -->
+    <string name="warning">Warning</string>
+    <string name="warning_disconnect">Terminate current connection?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <!-- Access rights spinner -->
+    <string-array name="access_rights">
+        <item>Pending</item>
+        <item>Read</item>
+        <item>Read/Write</item>
+    </string-array>
+    
+    <!-- About Dialog -->
+    <string name="version_label">Version: </string>
+    <string name="version">0.7</string>
+    <string name="developed_label">Developed by: </string>
+    <string name="website">http://www.NoProjectSiteYet.de</string>
+    
+    <!-- Help Dialog -->
+    <string name="settings_label">Settings:</string>
+	<string name="settings_text1">For better identification of your mobile phone
+		you may change your name any time in the settings which can be reached
+		via the \'Menu\' button.</string>
+	<string name="settings_text2">Furthermore your preferred application language may
+		be set whereat \'Automatic\' stands for automatic recognition of
+		the global language settings.</string>
+    <string name="connect_label">Connect:</string>
+	<string name="connect_text1">The Moment MoWiDi is started you are being
+		redirected to the list holding all re incoming connection requests.
+	</string>
+	<string name="connect_text2">With a simple \'tab\' on any request you will reach
+		the connection dialog where the hashcode of the requester is shown and
+		connection specific settings can be carried out. \'Auto connect\' does
+		all that work for you the next time a respective request comes in (use
+		only on mutual trust).</string>
+    <string name="conSettings_label">Connection settings:</string>
+	<string name="conSettings_text">These can be reached by carrying out a long \'tab\'
+		on a respective connection or request. Additionally you can
+		temporarily set a name for your connection partner (is \'Auto.
+		connect\' checked the name will be stored).</string>
+    <string name="disconnect_label">Disconnect from PC:</string>
+	<string name="disconnect_text">The connection is terminated by tabbing on it,
+		quitting the application or accepting another connection request.
+	</string>
+	<string name="hint">Hint: When the application served its purpose don\'t
+		forget to quit it via the \'Menu\'. By that your mobile phone will
+		stop appearing for the PCs and thus you won\'t be getting requests
+		anymore.</string>
+	<string name="thanks">The Development team wishes you a great time with
+		MoWiDi.</string>
+        
+</resources>
