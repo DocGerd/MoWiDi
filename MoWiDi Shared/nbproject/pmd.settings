@@ -1,0 +1,7 @@
+TooManyMethods
+SystemPrintln
+AvoidUsingOctalValues
+MethodArgumentCouldBeFinal
+LongVariable
+ShortVariable
+BeanMembersShouldSerialize
