@@ -1,0 +1,11 @@
+TooManyMethods
+SystemPrintln
+SingularField
+DoNotUseThreads
+AvoidThrowingRawExceptionTypes
+NullAssignment
+ShortVariable
+LongVariable
+AvoidSynchronizedAtMethodLevel
+DoNotCallSystemExit
+BeanMembersShouldSerialize
