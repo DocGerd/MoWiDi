@@ -1,4 +1,9 @@
 # MoWiDi
+
+## Last Change
+2010
+
+## Description
 Ziel dieses Projekts ist eine Softwarelösung
 für das einfache Einbinden eines
 Android 2.1 Mobiltelefons in einen stationären
